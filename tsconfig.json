@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"module": "ESNext",
-		"moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "moduleResolution": "Bundler",
 		"moduleDetection": "force", // 强制每个非声明文件都被视为一个模块。
 		"target": "ESNext",
 		"lib": [
@@ -20,6 +21,7 @@
 		"noFallthroughCasesInSwitch": true,
 		"noEmitOnError": true,
 		"forceConsistentCasingInFileNames": true,
-		"skipLibCheck": true
+		"skipLibCheck": true,
+    "jsx": "preserve"
 	}
 }
