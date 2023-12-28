@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "node16",
+		"moduleDetection": "force", // 强制每个非声明文件都被视为一个模块。
+		"target": "ESNext",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext"
+		],
+		"allowSyntheticDefaultImports": true, // 允许import命令默认加载没有default输出的模块。
+		"declaration": true,
+		"newLine": "lf",  // newLine设置换行符
+		"strict": true,
+		"noImplicitReturns": true,  // 要求函数任何情况下都必须返回一个值
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noEmitOnError": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true
+	}
+}

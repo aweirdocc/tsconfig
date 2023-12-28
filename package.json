@@ -1,0 +1,19 @@
+{
+  "name": "@weebat/tsconfig",
+  "version": "1.0.0",
+  "description": "TypeScript config for project.",
+  "main": "tsconfig.json",
+  "author": {
+		"name": "alilis",
+		"email": "aweirdocc@163.com",
+		"url": "https://alilis.space"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+		"tsconfig.json"
+	],
+  "keywords": ["tsconfig", "typescript", "configuration"],
+  "license": "ISC"
+}
